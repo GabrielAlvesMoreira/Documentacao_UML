@@ -7,12 +7,13 @@ O **Nex_TI** é um sistema web educacional focado na metodologia de **Estudo Ati
 
 ## 1. Requisitos Funcionais (RF)
 
-- **RF01 - Autenticação e Gestão de Perfis:** O sistema deve permitir o cadastro, login e gerenciamento de três níveis de acesso: Administrador (gestão total), Tutor (acompanhamento) e Aluno (consumo de conteúdo).
+- **RF01 - Autenticação e Gestão de Perfis:** O sistema deve permitir o cadastro, login e gerenciamento de dois níveis de acesso: Administrador (gestão de usuários e conteúdo) e Aluno (consumo de conteúdo e gamificação).
 - **RF02 - Gestão de Estudos (Flashcards):** O sistema deve apresentar os conteúdos em formato de flashcards (frente e verso), permitindo que o aluno revele a resposta e registre seu resultado (Acerto ou Erro).
 - **RF03 - Sistema de Gamificação (Core):** O sistema deve calcular e atribuir dinamicamente Pontos de Experiência (XP) e Moedas Virtuais (Coins) a cada flashcard respondido corretamente.
 - **RF04 - Progressão e Nivelamento:** O sistema deve atualizar automaticamente o Rank/Nível do aluno com base no XP acumulado e realizar um teste diagnóstico no primeiro acesso para definir o nível inicial.
 - **RF05 - Gestão de Conteúdo e Desbloqueio:** O sistema deve permitir o bloqueio de Fases e Módulos (ex: Fases Bônus), exigindo que o aluno utilize suas Moedas (Coins) ou atinja um nível específico para liberá-los.
-- **RF06 - Relatórios de Desempenho:** O sistema deve gerar painéis de acompanhamento (Dashboards) mostrando o progresso individual para o aluno e relatórios de engajamento da turma para os tutores/administradores.
+- **RF06 - Relatórios de Desempenho:** O sistema deve gerar painéis de acompanhamento (Dashboards) mostrando o progresso, as estatísticas de acertos e o nível individual exclusivamente para o próprio aluno.
+- **RF07 - Suporte por Agente Especialista (IA):** O sistema deve integrar uma interface de comunicação com um Agente Especialista (Inteligência Artificial) para fornecer suporte em tempo real, permitindo ao aluno tirar dúvidas e aprofundar as explicações sobre as cartas estudadas.
 
 ---
 
@@ -34,7 +35,8 @@ O **Nex_TI** é um sistema web educacional focado na metodologia de **Estudo Ati
 - **US03 - Gamificação e Recompensa:** Como Aluno, eu quero ganhar XP e Moedas (Coins) ao acertar os flashcards, para que eu me sinta motivado a subir de Rank.
 - **US04 - Economia do Jogo:** Como Aluno, eu quero utilizar minhas Moedas acumuladas para desbloquear módulos bônus, para ter acesso a conteúdos exclusivos.
 - **US05 - Gestão de Conteúdo:** Como Administrador, eu quero criar e atualizar os flashcards das disciplinas, para que a plataforma se mantenha relevante e atualizada.
-- **US06 - Acompanhamento:** Como Tutor, eu quero visualizar relatórios de engajamento da turma, para identificar quais alunos estão com dificuldades e precisam de apoio.
+- **US06 - Painel de Progresso:** Como Aluno, eu quero visualizar um painel com meu desempenho e histórico de acertos, para acompanhar minha evolução no sistema de forma autônoma.
+- **US07 - Suporte Inteligente:** Como Aluno, eu quero poder consultar um Agente Especialista (IA) durante as sessões de estudo, para esclarecer dúvidas técnicas de forma imediata.
 
 ---
 
