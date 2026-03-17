@@ -10,10 +10,12 @@ O **Nex_TI** é um sistema web educacional focado nas metodologias de **Estudo A
 - **RF01 - Gestão de Autenticação e Perfis:** O sistema deve permitir o cadastro de novos usuários e realizar o controle de sessão (login), gerenciando os acessos entre o perfil "Aluno" e "Administrador" (incluindo permissões de God Mode).
 - **RF02 - Motor de Repetição Espaçada (Algoritmo SM-2):** O sistema deve implementar o algoritmo SM-2 (base do Anki) para calcular automaticamente o intervalo de dias para a próxima revisão de cada conteúdo, otimizando a curva de esquecimento do aluno.
 - **RF03 - Interface de Estudo Ativo (Flashcards):** O sistema deve apresentar os conteúdos em formato de cartões interativos de frente e verso, disponibilizando botões de feedback (De novo, Difícil, Bom, Fácil) para alimentar o algoritmo de memória.
-- **RF04 - Módulo Preparatório ENADE:** O sistema deve fornecer fases dedicadas à resolução de questões de múltipla escolha focadas no ENADE, validando as respostas em tempo real.
-- **RF05 - Sistema de Gamificação (XP e Ranks):** O sistema deve aplicar um teste de nivelamento inicial e, a cada conclusão de rotina de estudos, recompensar o aluno com Pontos de Experiência (XP), atualizando seu Rank acadêmico automaticamente.
-- **RF06 - Economia Virtual e Desbloqueios:** O sistema deve conceder Moedas Virtuais (Coins) como recompensa por acertos, permitindo que o aluno utilize esse saldo financeiro virtual para desbloquear Módulos e Fases Bônus.
-- **RF07 - Dashboard e Acompanhamento de Desempenho:** O sistema deve gerar um painel (modal de estatísticas) para que o aluno visualize de forma consolidada o seu nível atual, total de moedas e a quantidade de cartas ativas em seu deck.
+- **RF04 - Criação de Flashcards Personalizados:** O sistema deve permitir que os alunos criem e salvem seus próprios flashcards na plataforma, integrando-os ao seu deck local de estudos.
+- **RF05 - Módulo Preparatório ENADE:** O sistema deve fornecer fases dedicadas à resolução de questões de múltipla escolha focadas no ENADE, validando as respostas em tempo real.
+- **RF06 - Sistema de Gamificação (XP e Ranks):** O sistema deve aplicar um teste de nivelamento inicial e, a cada conclusão de rotina de estudos, recompensar o aluno com Pontos de Experiência (XP), atualizando seu Rank acadêmico automaticamente.
+- **RF07 - Economia Virtual e Desbloqueios:** O sistema deve conceder Moedas Virtuais (Coins) como recompensa por acertos, permitindo que o aluno utilize esse saldo financeiro virtual para desbloquear Módulos e Fases Bônus.
+- **RF08 - Dashboard e Acompanhamento de Desempenho:** O sistema deve gerar um painel (modal de estatísticas) para que o aluno visualize de forma consolidada o seu nível atual, total de moedas e a quantidade de cartas ativas em seu deck.
+- **RF09 - Suporte de Agente Especialista e Tutor (Implementação Futura):** O sistema prevê uma interface de chat contextual para sanar dúvidas técnicas em tempo real com uma Inteligência Artificial (Atendimento Nível 1) e o escalonamento via tickets para um Tutor humano (Atendimento Nível 2). **Nota:** Esta funcionalidade encontra-se no roadmap do projeto e será implementada futuramente.
 
 ---
 
@@ -31,12 +33,24 @@ O **Nex_TI** é um sistema web educacional focado nas metodologias de **Estudo A
 
 ## 3. Histórias de Usuário (User Stories)
 
+**Visão do Aluno e Visitante (Front-office)**
 - **US01 - Acesso e Cadastro:** Como Visitante, eu quero poder criar uma conta nova diretamente pela tela de login, para ingressar rapidamente na plataforma como Aluno.
 - **US02 - Repetição Espaçada:** Como Aluno, eu quero interagir com flashcards que memorizam meu nível de dificuldade, para que o sistema me mostre as cartas difíceis com mais frequência e otimize meu tempo de estudo.
-- **US03 - Acessibilidade Visual:** Como Aluno com dificuldade de leitura, eu quero poder aumentar o texto da plataforma e ativar um modo de alto contraste, para estudar com conforto visual e autonomia.
-- **US04 - Jornada Gamificada:** Como Aluno, eu quero realizar um teste de nivelamento inicial, ganhar XP/Moedas ao concluir rotinas e usar meu saldo para comprar conhecimentos extras (Bônus), para manter meu engajamento no jogo.
-- **US05 - Preparação Acadêmica:** Como Aluno concluinte, eu quero acessar um módulo exclusivo de simulado ENADE com questões de múltipla escolha, para testar meus conhecimentos antes da prova oficial.
-- **US06 - Acompanhamento Pessoal:** Como Aluno, eu quero visualizar um dashboard com meu desempenho, rank e histórico de XP/Coins, para acompanhar minha evolução acadêmica de forma autônoma.
+- **US03 - Flashcards Personalizados:** Como Aluno, eu quero poder criar minhas próprias cartas de estudo, para focar nas disciplinas em que tenho mais dificuldade e organizar meus resumos.
+- **US04 - Acessibilidade Visual:** Como Aluno com dificuldade de leitura, eu quero poder aumentar o texto da plataforma e ativar um modo de alto contraste, para estudar com conforto visual e autonomia.
+- **US05 - Jornada Gamificada:** Como Aluno, eu quero realizar um teste de nivelamento inicial, ganhar XP/Moedas ao concluir rotinas e usar meu saldo para comprar conhecimentos extras (Bônus), para manter meu engajamento no jogo.
+- **US06 - Preparação Acadêmica:** Como Aluno concluinte, eu quero acessar um módulo exclusivo de simulado ENADE com questões de múltipla escolha, para testar meus conhecimentos antes da prova oficial.
+- **US07 - Acompanhamento Pessoal:** Como Aluno, eu quero visualizar um dashboard com meu desempenho, rank e histórico de XP/Coins, para acompanhar minha evolução acadêmica de forma autônoma.
+- **US08 - Suporte Integrado (Futuro):** Como Aluno, eu quero poder acionar um Agente Especialista (IA) durante os estudos ou abrir um ticket para o Tutor, para destravar meu aprendizado quando tiver dúvidas muito complexas.
+
+**Visão do Tutor e Administrador (Back-office)**
+- **US09 - Gestão de Acessos:** Como Administrador de TI, eu quero gerenciar os perfis de usuários (Alunos e Tutores) e seus níveis de permissão, para manter a segurança, a organização e a hierarquia da plataforma.
+- **US10 - Criação de Conteúdo:** Como Tutor, eu quero criar, editar e excluir flashcards globais no banco de dados, para manter o material didático das trilhas de estudo sempre atualizado e preciso.
+- **US11 - Acompanhamento Pedagógico:** Como Tutor, eu quero visualizar um painel analítico com o desempenho de XP e o engajamento da turma, para identificar alunos inativos ou com dificuldades e realizar intervenções proativas.
+- **US12 - Atendimento de Dúvidas (Nível 2):** Como Tutor, eu quero receber no meu painel os tickets de dúvidas escalonados pelos alunos, para fornecer suporte humano e especializado em questões que a máquina não conseguiu resolver.
+
+**Visão do Sistema / IA (Motor de Processamento)**
+- **US13 - Processamento de Contexto (IA):** Como Agente Especialista (IA), eu quero receber via API a dúvida digitada pelo aluno junto com o texto oculto do flashcard que ele está estudando, para conseguir gerar uma resposta altamente contextualizada e precisa (Suporte de Nível 1).
 
 ---
 
@@ -47,7 +61,7 @@ O projeto adota uma arquitetura modular focada em escalabilidade. Atualmente, o 
 - **Front-end UI/UX:** HTML5 Semântico, CSS3 (Flexbox/Grid, Variáveis CSS, Animações Keyframes), JavaScript Vanilla.
 - **Lógica de Negócios (Fase Atual):** JavaScript ES6+ (Responsável pelo motor SM-2 do Anki, controle de estado do DOM, gamificação e matemática de e-commerce).
 - **Armazenamento (Fase Atual):** Arquivo estático `data.js` estruturado para alimentar o conteúdo do sistema, trabalhando em conjunto com a Web Storage API (`localStorage`) para salvar o progresso individual de cada usuário.
-- **Back-end e BD (Implementação Futura):** API RESTful desenvolvida em Node.js com integração a um Banco de Dados estruturado.
+- **Back-end e BD (Implementação Futura):** API RESTful desenvolvida em Node.js com integração a um Banco de Dados estruturado. Também contempla a integração com APIs externas de Inteligência Artificial (LLM) para alimentar o módulo futuro do Agente Especialista.
 - **Engenharia de Software:** Modelagem UML projetada e documentada para a integração final baseada no padrão MVC.
 
 ---
