@@ -3,7 +3,7 @@
 
 ---
 
-## ÉPICO 1: Autenticação e Acesso
+## MD_ÉPICO 1: Autenticação e Acesso
 
 ### História 1 (US01)
 **(Red) Prioridade: Alta**
@@ -36,7 +36,7 @@ Como usuário, quero fazer login para acessar minha conta.
 
 ---
 
-## ÉPICO 2: Nivelamento do Usuário
+## MD_ÉPICO 2: Nivelamento do Usuário
 
 ### História 1 (US03)
 **(Yellow) Prioridade: Média**
@@ -55,7 +55,7 @@ Como aluno, quero fazer um teste de nivelamento para definir meu nível acadêmi
 
 ---
 
-## ÉPICO 3: Flashcards, Estudo Ativo e Economia
+## MD_ÉPICO 3: Flashcards, Estudo Ativo e Economia
 
 ### História 1 (US04)
 **(Red) Prioridade: Alta**
@@ -99,7 +99,7 @@ Como aluno, quero ser recompensado ao estudar e acertar questões, para me mante
 
 ---
 
-## ÉPICO 4: Progressão
+## MD_ÉPICO 4: Progressão
 
 ### História 1 (US07)
 **(Yellow) Prioridade: Média**
@@ -129,7 +129,7 @@ Como aluno, quero visualizar meu progresso de forma clara.
 
 ---
 
-## ÉPICO 5: Suporte Integrado (IA e Humano)
+## MD_ÉPICO 5: Suporte Integrado (IA e Humano)
 
 ### História 1 (US09)
 **(Red) Prioridade: Alta**
@@ -184,7 +184,7 @@ Como tutor, quero receber no meu painel os tickets de dúvidas escalonados.
 
 ---
 
-## ÉPICO 6: Gestão (Admin/Tutor)
+## MD_ÉPICO 6: Gestão (Admin/Tutor)
 
 ### História 1 (US13)
 **(Red) Prioridade: Alta**
@@ -225,7 +225,7 @@ Como tutor/admin, quero gerenciar o conteúdo das cartas.
 
 ---
 
-## ÉPICO 7: Preparatório ENADE
+## MD_ÉPICO 7: Preparatório ENADE
 
 ### História 1 (US16)
 **(Red) Prioridade: Alta**
@@ -242,7 +242,7 @@ Como aluno, quero acessar um simulado com questões de múltipla escolha, para m
 
 ---
 
-## ÉPICO 8: Acessibilidade e Inclusão
+## MD_ÉPICO 8: Acessibilidade e Inclusão
 
 ### História 1 (US17)
 **(Red) Prioridade: Alta**
