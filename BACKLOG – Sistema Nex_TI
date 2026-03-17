@@ -6,7 +6,7 @@
 ## ÉPICO 1: Autenticação e Acesso
 
 ### História 1 (US01)
-🔴 **Prioridade: Alta**
+**(Red) Prioridade: Alta**
 
 Como usuário, quero me cadastrar para acessar o sistema.
 * **Critérios de Aceitação:**
@@ -21,7 +21,7 @@ Como usuário, quero me cadastrar para acessar o sistema.
   - Criar confirmação de cadastro
 
 ### História 2 (US02)
-🔴 **Prioridade: Alta**
+**(Red) Prioridade: Alta**
 
 Como usuário, quero fazer login para acessar minha conta.
 * **Critérios de Aceitação:**
@@ -39,7 +39,7 @@ Como usuário, quero fazer login para acessar minha conta.
 ## ÉPICO 2: Nivelamento do Usuário
 
 ### História 1 (US03)
-🟡 **Prioridade: Média**
+**(Yellow) Prioridade: Média**
 
 Como aluno, quero fazer um teste de nivelamento para definir meu nível acadêmico inicial.
 * **Critérios de Aceitação:**
@@ -58,7 +58,7 @@ Como aluno, quero fazer um teste de nivelamento para definir meu nível acadêmi
 ## ÉPICO 3: Flashcards, Estudo Ativo e Economia
 
 ### História 1 (US04)
-🔴 **Prioridade: Alta**
+**(Red) Prioridade: Alta**
 
 Como aluno, quero estudar usando o método de repetição espaçada (Anki), para focar nas cartas que tenho mais dificuldade e otimizar meu tempo.
 * **Critérios de Aceitação:**
@@ -72,7 +72,7 @@ Como aluno, quero estudar usando o método de repetição espaçada (Anki), para
   - Criar motor do algoritmo SM-2 para calcular a próxima revisão
 
 ### História 2 (US05)
-🟡 **Prioridade: Média**
+**(Yellow) Prioridade: Média**
 
 Como aluno, quero criar flashcards personalizados.
 * **Critérios de Aceitação:**
@@ -85,7 +85,7 @@ Como aluno, quero criar flashcards personalizados.
   - Listar flashcards do usuário
 
 ### História 3 (US06)
-🔴 **Prioridade: Alta**
+**(Red) Prioridade: Alta**
 
 Como aluno, quero ser recompensado ao estudar e acertar questões, para me manter engajado na plataforma.
 * **Critérios de Aceitação:**
@@ -102,7 +102,7 @@ Como aluno, quero ser recompensado ao estudar e acertar questões, para me mante
 ## ÉPICO 4: Progressão
 
 ### História 1 (US07)
-🟡 **Prioridade: Média**
+**(Yellow) Prioridade: Média**
 
 Como aluno, quero usar meu saldo de moedas para desbloquear módulos e fases bônus na loja, para expandir meu conhecimento.
 * **Critérios de Aceitação:**
@@ -115,7 +115,7 @@ Como aluno, quero usar meu saldo de moedas para desbloquear módulos e fases bô
   - Atualizar status visual das fases
 
 ### História 2 (US08)
-🔴 **Prioridade: Alta**
+**(Red) Prioridade: Alta**
 
 Como aluno, quero visualizar meu progresso de forma clara.
 * **Critérios de Aceitação:**
@@ -132,7 +132,7 @@ Como aluno, quero visualizar meu progresso de forma clara.
 ## ÉPICO 5: Suporte Integrado (IA e Humano)
 
 ### História 1 (US09)
-🔴 **Prioridade: Alta**
+**(Red) Prioridade: Alta**
 
 Como aluno, quero consultar um agente especialista (IA) para tirar dúvidas rápidas.
 * **Critérios de Aceitação:**
@@ -145,7 +145,7 @@ Como aluno, quero consultar um agente especialista (IA) para tirar dúvidas ráp
   - Registrar histórico de perguntas
 
 ### História 2 (US10)
-🔴 **Prioridade: Alta**
+**(Red) Prioridade: Alta**
 
 Como Agente Especialista (IA), quero receber via API a dúvida e o contexto oculto do flashcard, para gerar uma resposta precisa.
 * **Critérios de Aceitação:**
@@ -157,7 +157,7 @@ Como Agente Especialista (IA), quero receber via API a dúvida e o contexto ocul
   - Tratar e renderizar a resposta devolvida pela LLM
 
 ### História 3 (US11)
-🟡 **Prioridade: Média**
+**(Yellow) Prioridade: Média**
 
 Como aluno, quero escalar dúvida para um tutor quando a IA não for suficiente.
 * **Critérios de Aceitação:**
@@ -170,7 +170,7 @@ Como aluno, quero escalar dúvida para um tutor quando a IA não for suficiente.
   - Registrar dúvida no banco de dados
 
 ### História 4 (US12)
-🟡 **Prioridade: Média**
+**(Yellow) Prioridade: Média**
 
 Como tutor, quero receber no meu painel os tickets de dúvidas escalonados.
 * **Critérios de Aceitação:**
@@ -187,7 +187,7 @@ Como tutor, quero receber no meu painel os tickets de dúvidas escalonados.
 ## ÉPICO 6: Gestão (Admin/Tutor)
 
 ### História 1 (US13)
-🔴 **Prioridade: Alta**
+**(Red) Prioridade: Alta**
 
 Como admin, quero gerenciar perfis e acessos do sistema.
 * **Critérios de Aceitação:**
@@ -200,7 +200,7 @@ Como admin, quero gerenciar perfis e acessos do sistema.
   - Criar interface de gestão
 
 ### História 2 (US14)
-🟡 **Prioridade: Média**
+**(Yellow) Prioridade: Média**
 
 Como tutor, quero acompanhar o desempenho dos alunos.
 * **Critérios de Aceitação:**
@@ -212,7 +212,7 @@ Como tutor, quero acompanhar o desempenho dos alunos.
   - Filtrar por desempenho e inatividade
 
 ### História 3 (US15)
-🟡 **Prioridade: Média**
+**(Yellow) Prioridade: Média**
 
 Como tutor/admin, quero gerenciar o conteúdo das cartas.
 * **Critérios de Aceitação:**
@@ -228,7 +228,7 @@ Como tutor/admin, quero gerenciar o conteúdo das cartas.
 ## ÉPICO 7: Preparatório ENADE
 
 ### História 1 (US16)
-🔴 **Prioridade: Alta**
+**(Red) Prioridade: Alta**
 
 Como aluno, quero acessar um simulado com questões de múltipla escolha, para me preparar para a prova do ENADE.
 * **Critérios de Aceitação:**
@@ -245,7 +245,7 @@ Como aluno, quero acessar um simulado com questões de múltipla escolha, para m
 ## ÉPICO 8: Acessibilidade e Inclusão
 
 ### História 1 (US17)
-🔴 **Prioridade: Alta**
+**(Red) Prioridade: Alta**
 
 Como usuário, quero ferramentas que adaptem a interface às minhas necessidades visuais.
 * **Critérios de Aceitação:**
